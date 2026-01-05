@@ -18,40 +18,45 @@
     <div class="container">
       <nav class="menu">
         <a class="logo" href="#body">
-          <img class="logo__img" src="images/logo.svg" alt="логотип" width="170" height="100">
+          <img class="logo__img" src="images/logo.svg" alt="логотип евакуатор" width="170" height="100">
         </a>
-        <ul class="header__list">
-          <li class="header__item">
-            <a class="header__link" href="#services">
-              Послуги
-            </a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="#advantages">
-              Переваги
-            </a>
-          </li>
-          <a class="header__tel" href="tel:+380503223232">
-            +38 (096) 332 34 87
-          </a>
-        </ul>
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--telegram" href="https://t.me/ccTqSZlcMSad">
-              Telegram
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--viber" href="viber://chat?number=+380963323487">
-              Viber
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--whatsapp" href="">
-              WhatsApp
-            </a>
-          </li>
-        </ul>
+        <button class="menu__button" type="button" aria-label="Відкриття меню">
+          <span class="menu__button-line"></span>
+        </button>
+        <a class="header__tel" href="tel:+380503223232">
+          +38 (096) 332 34 87
+        </a>
+        <div class="menu__list">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#services">
+                Послуги
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#advantages">
+                Переваги
+              </a>
+            </li>
+          </ul>
+          <ul class="social__list social__list--mobile">
+            <li class="social__item">
+              <a class="social__link social__link--telegram" href="https://t.me/ccTqSZlcMSad">
+                Telegram
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--viber" href="viber://chat?number=+380963323487">
+                Viber
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--whatsapp" href="">
+                WhatsApp
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
   </header>
@@ -67,10 +72,13 @@
             цілодобово без вихідних
             доставка у будь-яку точку України
           </p>
+          <a class="hero__link" href="tel:+380503223232">
+            Замовити дзвінок
+          </a>
         </div>
       </div>
     </section>
-    <section class="services" id="#services">
+    <section class="services" id="services">
       <div class="container">
         <h2 class="services__title title">
           Послуги
@@ -103,7 +111,7 @@
         </ul>
       </div>
     </section>
-    <section class="advantages" id="#advantages">
+    <section class="advantages" id="advantages">
       <div class="container">
         <h2 class="advantages__title title">
           Наші можливості
@@ -139,7 +147,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__content">
-        <a class="logo" href="#body">
+        <a class="logo footer__logo" href="#body">
           <img class="logo__img" src="images/logo.svg" alt="логотип" width="170" height="100">
         </a>
         <address class="footer__address">
@@ -177,6 +185,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
